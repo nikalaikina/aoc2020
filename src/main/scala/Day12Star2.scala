@@ -61,18 +61,14 @@ object Day12Star2 extends Main[Int] {
       (x + dx * steps, y + dy * steps)
     }
 
-    def turnR: Position = {
-      val xx = abs(y) * (if (y > 0) 1 else -1)
-      val yy = abs(x) * (if (x < 0) 1 else -1)
-      (xx, yy)
+    def turnL: Position = (-y, x)
+
+    def turnL(k: Int): Position = {
+      if (k == 0) p else turnL(k - 1).turnL
     }
 
     def turnR(k: Int): Position = {
-      if (k == 0) p else turnR(k - 1).turnR
-    }
-
-    def turnL(k: Int): Position = {
-      turnR(4 - k)
+      turnL(4 - k)
     }
   }
 }

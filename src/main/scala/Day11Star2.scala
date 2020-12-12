@@ -4,7 +4,7 @@ import cats.implicits._
 
 object Day11Star2 extends Main[Int] {
 
-  override val File = "day11.txt"
+  override val File = "inputs/day11.txt"
 
   val Empty = 'L'
   val Floor = '.'

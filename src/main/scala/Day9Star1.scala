@@ -1,7 +1,7 @@
 
 object Day9Star1 extends Main[Long] {
 
-  val File = "day9.txt"
+  val File = "inputs/day9.txt"
 
   val Preamble = 25
 

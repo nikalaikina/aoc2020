@@ -1,6 +1,6 @@
 object Day1Star2 extends Main[Int] {
 
-  val File = "day1.txt"
+  val File = "inputs/day1.txt"
 
   override def solve(input: List[String]): List[Int] = {
     val ints = input.map(_.toInt)

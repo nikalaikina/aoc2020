@@ -3,7 +3,7 @@ import scala.util.matching.Regex
 
 object Day4Star2 extends Main[Int] {
 
-  val File = "day4.txt"
+  val File = "inputs/day4.txt"
 
   val EyeColors = Set("amb", "blu", "brn", "gry", "grn", "hzl", "oth")
 

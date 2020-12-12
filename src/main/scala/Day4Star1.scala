@@ -1,7 +1,7 @@
 
 object Day4Star1 extends Main[Int] {
 
-  val File = "day4.txt"
+  val File = "inputs/day4.txt"
 
   val MandatoryFields = List("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
 

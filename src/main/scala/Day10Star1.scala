@@ -1,7 +1,7 @@
 
 object Day10Star1 extends Main[Int] {
 
-  override val File = "day10.txt"
+  override val File = "inputs/day10.txt"
 
   val Outlet = 0
 

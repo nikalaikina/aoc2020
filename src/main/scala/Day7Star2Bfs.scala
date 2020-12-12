@@ -3,7 +3,7 @@ import cats.implicits._
 
 object Day7Star2Bfs extends Main[Int] {
 
-  val File = "day7.txt"
+  val File = "inputs/day7.txt"
 
   val MyBag = "shiny gold"
 

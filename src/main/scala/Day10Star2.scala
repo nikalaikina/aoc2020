@@ -1,7 +1,7 @@
 
 object Day10Star2 extends Main[Long] {
 
-  override val File = "day10.txt"
+  override val File = "inputs/day10.txt"
 
   override def solve(input: List[String]): List[Long] = {
     val numbers = input.map(_.toInt)

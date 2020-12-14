@@ -3,7 +3,7 @@ import scala.util.Try
 
 object Day13Star1 extends Main[Int] {
 
-  override val File = "inputs/day13.txt"
+  override def File = "inputs/day13.txt"
 
   override def solve(lines: List[String]): List[Int] = {
     val fst :: snd :: Nil = lines

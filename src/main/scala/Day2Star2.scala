@@ -2,7 +2,7 @@ import scala.util.matching.Regex
 
 object Day2Star2 extends Main[Int] {
 
-  val File = "inputs/day2.txt"
+  def File = "inputs/day2.txt"
 
   val regex: Regex = raw"(\d+)-(\d+) (.): (.+)".r
 

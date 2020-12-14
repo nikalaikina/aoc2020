@@ -2,7 +2,7 @@ import scala.math.abs
 
 object Day12Star2 extends Main[Int] {
 
-  override val File = "inputs/day12.txt"
+  override def File = "inputs/day12.txt"
 
   type Position = (Int, Int)
 

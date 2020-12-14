@@ -1,7 +1,7 @@
 
 object Day6Star1 extends Main[Int] {
 
-  val File = "inputs/day6.txt"
+  def File = "inputs/day6.txt"
 
   override def solve(grid: List[String]): List[Int] = {
     val questions = grid.foldLeft(List(Set.empty[Char])) {

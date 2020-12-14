@@ -3,7 +3,7 @@ import cats.implicits._
 
 object Day8Star2 extends Main[Int] {
 
-  val File = "inputs/day8.txt"
+  def File = "inputs/day8.txt"
 
   override def solve(input: List[String]): List[Int] = {
     val array = input.map { s =>

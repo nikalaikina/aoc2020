@@ -1,7 +1,7 @@
 
 object Day3Star2 extends Main[Int] {
 
-  val File = "inputs/day3.txt"
+  def File = "inputs/day3.txt"
 
   val deltas = List(
     (1, 1),

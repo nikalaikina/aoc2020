@@ -1,9 +1,9 @@
 
 object Day4Star1 extends Main[Int] {
 
-  val File = "inputs/day4.txt"
+  def File = "inputs/day4.txt"
 
-  val MandatoryFields = List("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
+  lazy val MandatoryFields = List("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
 
   override def solve(grid: List[String]): List[Int] = {
     val pasports = grid.foldLeft(List(List.empty[String])) {

@@ -1,7 +1,7 @@
 
 object Day6Star2 extends Main[Int] {
 
-  val File = "inputs/day6.txt"
+  def File = "inputs/day6.txt"
   val Alphabet = "abcdefghijklmnopqrstuvwxyz".toSet
 
   override def solve(grid: List[String]): List[Int] = {

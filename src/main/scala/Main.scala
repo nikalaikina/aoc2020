@@ -4,7 +4,7 @@ import scala.io.Source
 
 trait Main[T] extends IOApp {
 
-  val File: String
+  def File: String
 
   val `2020`: Int = 2020
 

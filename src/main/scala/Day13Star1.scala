@@ -13,7 +13,6 @@ object Day13Star1 extends Main[Int] {
       val last = (current / bus) * bus
       bus -> (last + bus - current)
     }
-    res.foreach(println)
     val (bus, min) = res.minBy(_._2)
     List(bus * min)
   }
